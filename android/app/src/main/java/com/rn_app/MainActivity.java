@@ -1,4 +1,4 @@
-package com.rn_isac;
+package com.rn_app;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "rn_isac";
+    return "rn_app";
   }
 }

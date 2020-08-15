@@ -8,12 +8,6 @@ import {
   Platform,
   TextInput,
 } from 'react-native';
-import {
-  nameValidator,
-  emailValidator,
-  passwordValidator,
-} from '../../global/utils/validator';
-
 class index extends Component {
   render() {
     return (

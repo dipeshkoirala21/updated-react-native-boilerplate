@@ -10,7 +10,10 @@ import {
 } from '../../redux/app/app.selectors';
 import * as mapDispatchToProps from '../../redux/app/app.actions';
 
-import {AppAuthContainer, AppMainContainer} from '../../';
+import {
+  // AppAuthContainer,
+  AppMainContainer,
+} from '../../index';
 import {api} from '../../api';
 
 const Initial = (props) => {
@@ -38,7 +41,7 @@ const Initial = (props) => {
     return <AppMainContainer />;
   }
 
-  return <AppAuthContainer />;
+  return <AppMainContainer />;
 };
 
 const mapStateToProps = createStructuredSelector({
